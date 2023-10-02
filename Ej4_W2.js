@@ -29,9 +29,9 @@ function diamante(param) {
         graphic.push(row.join('')); // unimos row y lo importa graphic
     }
 
-    // Copio con el operador spread la primera parte del diamante y la invierte para la segunda parte
+
     let reverse = [...graphic];
-        // Copio con el operador spread la primera parte del diamante y la invierte para la segunda parte
+        // Copio con el operador spread la primera parte del diamante sin modificar graphic y la invierto  para la segunda parte
     reverse.reverse();
     reverse.shift(); // Elimina la primera fila (la Z)  que está duplicada
 
